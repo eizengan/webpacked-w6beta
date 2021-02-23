@@ -27,3 +27,11 @@ body {
 section {
   margin: 2em 1em 0;
 }
+
+button {
+  background-color: #1663b2;
+  border: 0;
+  border-radius: 0.25em;
+  color: #fff;
+  padding: 1em;
+}
