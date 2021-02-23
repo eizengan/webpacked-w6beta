@@ -10,6 +10,20 @@ html {
   text-align: center;
 }
 
+body {
+  background-image: url("../images/webpack-tiled.png");
+}
+
+.container {
+  background-color: #fff;
+  margin: 0 auto;
+  min-height: 100vh;
+  max-width: 62em;
+
+  /* TRICKY: ensure all child nodes' margins stay inside container */
+  padding: 1px 1px 3em;
+}
+
 section {
   margin: 2em 1em 0;
 }
