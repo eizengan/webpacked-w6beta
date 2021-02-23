@@ -1,0 +1,8 @@
+.regret {
+  animation: 1s steps(2, jump-none) blink infinite;
+}
+
+@keyframes blink {
+  from { opacity: 0%; }
+  to { opacity: 100%; }
+}

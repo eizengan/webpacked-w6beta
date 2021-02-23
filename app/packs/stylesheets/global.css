@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-weight: 400;
+  text-align: center;
+}
+
+section {
+  margin: 2em 1em 0;
+}

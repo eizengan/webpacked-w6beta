@@ -6,6 +6,11 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <%#
+      TRICKY: to enable CSS packs you must run
+      yarn add css-loader mini-css-extract-plugin css-minimizer-webpack-plugin
+    %>
+    <%= stylesheet_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
