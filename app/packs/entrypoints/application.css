@@ -1,1 +1,3 @@
+/* TRICKY: relative to path added in additional_paths */
+@import 'stylesheets/normalize';
 @import '../stylesheets';
