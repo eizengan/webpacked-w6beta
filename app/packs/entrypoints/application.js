@@ -16,3 +16,11 @@ const images = require.context('../images', true)
 
 import 'core-js/stable'
 import 'regenerator-runtime/runtime'
+
+import Rails from "@rails/ujs"
+import Turbolinks from "turbolinks"
+
+Rails.start()
+Turbolinks.start()
+
+import '../javascript'
