@@ -11,6 +11,13 @@
       yarn add css-loader mini-css-extract-plugin css-minimizer-webpack-plugin
     %>
     <%= stylesheet_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%#
+      TRICKY: to enable React packs you must run
+      yarn add react react-dom @babel/preset-react
+      A separate, JSX entrypoint can be created with the same name as the
+      JS pack; they will be consolidated into a single JS pack by Webpack
+      during compilation
+    %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
