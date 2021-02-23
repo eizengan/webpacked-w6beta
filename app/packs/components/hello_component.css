@@ -1,0 +1,19 @@
+.hello-component {
+  border: 1px solid #666;
+  display: inline flow-root;
+  min-width: 20em;
+  padding: 1em;
+}
+
+.hello-component .header {
+  margin: 0;
+}
+
+.hello-component .list {
+  display: inline flow-root;
+  text-align: left;
+}
+
+.hello-component .list-item:not(:last-of-type) {
+  text-decoration: line-through;
+}
