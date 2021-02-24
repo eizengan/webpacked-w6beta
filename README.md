@@ -1,10 +1,10 @@
-This project is intended to illustrate Webpacker usage within a modern Rails
+This project is intended to illustrate Webpacker 6 usage within a modern Rails
 app. You can run the project by cloning the repository, running `bin/setup`,
 and then starting the server with `bin/rails server`.
 
 The git history of this project is of significance, having been curated with
 the intent of guiding the reader through some common usage scenarios involving
-Webpacker-packed assets. The following use Webpacker-packed images, SCSS, and
+Webpacker-packed assets. The following use Webpacker-packed images, CSS, and
 JS:
 
 - [397ba3b](https://github.com/eizengan/webpacked-w6beta/commit/397ba3b74b33263cb7afdfc8ebe427beb37d28b2) uses an image in a Rails view
